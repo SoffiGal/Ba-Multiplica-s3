@@ -1,0 +1,592 @@
+body{
+    overflow-x: hidden;
+}
+
+
+.navbar {
+    background-color:#20a448;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+.navbar a{
+    position: relative;
+    top: 4px;
+    color: white;
+}
+
+.nav-link:hover{
+  color: #adff95 !important;
+}
+#nombre{
+ font-size: 30px;
+ position: relative;
+    top: 4px;
+    color: white;
+}
+
+.banner {
+    background-image: url(/Img/sin\ etiqueta.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+  
+.bannerTitulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #028001;
+    position: relative;
+    top: 300px;
+    left: 40px;
+}
+  
+.bannerParrafo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #028001;
+    position: relative;
+    top: 300px;
+    left: 40px;
+}
+
+.calltoaction{
+    background-color: #20a448;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    top: 300px;
+    left: 170px;
+}
+
+/* seccion servicios */
+.tituloServicios{
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:#7ac98a;
+    text-align: center;
+    margin-top: -50px;
+    margin-bottom: 0;
+}
+
+#lineaUno{
+    width: 550px;
+    color: #7ac98a;
+    margin-top: 50px;
+}
+#lineaDos{
+    width: 550px;
+    color: #7ac98a;
+    margin-top: -28px;
+    margin-left: 970px;
+}
+.subparrafo{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color:#7ac98a;
+    text-align: center; 
+    margin-top: 20px;
+}
+
+.servicios {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+
+} 
+.servicios h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 160px;
+    transition: transform 0.3s ease;
+}
+
+#presion{
+    background-image: url(/Img/presion.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    transition: background 0.3s ease;
+}
+#presion:hover{
+    background: linear-gradient(#8cccac78, #8cccac78), url(/Img/presion.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+#presion:hover h2{
+    transform: translateY(-70px);
+    color:white;
+}
+  
+#inyectables{
+    background-image: url(/Img/inyecciones.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    transition: background 0.3s ease;
+}
+#inyectables:hover{
+    background: linear-gradient(#8cccac78, #8cccac78), url(/Img/inyecciones.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+#inyectables:hover h2{
+    transform: translateY(-70px);
+    color:white;
+}
+
+#glucosa{
+    background-image: url(/Img/glucosa.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    height: 200px;
+    transition: background 0.3s ease;
+}
+#glucosa:hover{
+    background: linear-gradient(#8cccac78, #8cccac78), url(/Img/glucosa.jpeg);
+    background-position: center;
+    background-size: cover; 
+}
+#glucosa:hover h2{
+    transform: translateY(-70px);
+    color:white;
+}
+
+#nebulizacion{
+    width: 300px;
+    height: 200px;
+    background-image: url(/Img/nebulizacion.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: background 0.3s ease;
+}
+#nebulizacion h2{
+    margin-top: 145px;
+}
+#nebulizacion:hover{
+    background: linear-gradient(#8cccac78, #8cccac78), url(/Img/nebulizacion.jpg);
+    background-position: center;
+    background-size: cover; 
+}
+#nebulizacion:hover h2 {
+    transform: translateY(-60px);
+    color:white;
+}
+  /*seccion productos*/
+.contenedorVerde{
+    background-image: url(/Img/fondova.png);
+    width: 100vw;
+    height: auto;
+    background-position: center ;
+    background-size: cover; 
+    margin-top: 80px;
+}
+.tituloProductos {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color:white;
+    text-align:left;
+    position: relative;
+    top: 25px;
+    margin-left: 116px;
+}
+
+.subparrafoProductos{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color:white;
+    text-align: left; 
+    margin-top: 10px;
+    margin-left: 116px;
+}
+
+ /*seccion productos*/
+.contenedorProductos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content:center;
+    margin: 20px;
+  }
+  
+  .tarjetas {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .tarjetas h3 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+  }
+  .tarjetas p {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+  }
+
+  .tarjetas img {
+    width: 150px;
+    height: 150px;
+    align-items: center;
+  }
+  
+  .botonCarrito {
+    background-color: #4caf50;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    width: 170px;
+    align-items: center;
+    margin-top: -5px;
+  }
+  
+  
+  #contadorCarrito {
+    background-color: #adff95 ;
+    color: #20a448;
+    border-radius: 100%;
+    padding: 2px 8px;
+    
+  }
+    /*seccion formulario*/
+  .contenedorFormulario{
+    background-image: url(Img/fondoverde.png);
+    background-position: center;
+    background-size: cover; 
+    width: 100vw;
+    height: 90vh;
+  }
+
+  #formulario{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 25px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    position: relative;
+    top: 20px;
+    left: 150px;
+    
+}
+ #formulario h2 {
+    font-family: 'Montserrat', sans-serif;
+    color:#20a448;
+    font-weight: 700;
+ }
+ #formulario p {
+    font-family: 'Montserrat', sans-serif;
+    color: #4caf50;
+    font-weight: 500;
+ }
+ label{
+color: #20a448;
+margin-top: 5px;
+}
+
+ #enviarBtn{
+    background-color: #4caf50;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/*seccion publicidad*/
+ .videoPublicidad{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.cuidaTuPiel{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #7ac98a;
+    position: relative;
+    right: 50px;
+}
+
+.elegiSalud{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #7ac98a;
+    position: relative;
+    position: relative;
+    left: 20px;
+}
+
+/*seccion footer y aside*/
+footer {
+    background-color: #20a448;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  
+  }
+
+  .contactoInfo {
+    line-height: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    
+    
+  }
+
+  .contactoInfo h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    left: 150px;
+    margin-top: 15px;
+  }
+  .contactoInfo p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    left: 50px;
+   
+  }
+
+  aside img{
+    width: 35vw;
+    height: 15vh;
+    align-items: center;
+  }
+
+  .ofertas{
+    position: relative;
+    left: 140px;
+}
+
+@media screen and (max-width: 300px) {
+    .navbar {
+        height: 90px;
+    }
+    .navbar img{
+        width: 40px;
+        height: 30px;
+    }
+    .navbar a{
+        position: relative;
+        top: 4px;
+        left: -60px;
+        font-size: 12px;
+    }
+    #nombre{
+     font-size: 18px;
+     position: relative;
+        left: -2px;
+        color: white;
+    }
+    .imgcarrito{
+        width: 5px;
+        height: 5px;
+        position: relative;
+        top: -40px;
+        left: 70px;
+    }
+
+    #contadorCarrito {
+        border-radius: 100%;
+        padding: 1px 4px;
+        position: relative;
+        top:-40px;
+        left: 70px;
+    }
+
+    .banner {
+        background-image: url(/Img/sin\ etiqueta.jpg);
+        width: 100vw;
+        background-position: top;
+        background-repeat: no-repeat;
+     }
+
+     .bannerTitulo {
+        font-size: 20px;
+        position: relative;
+        top:8px;
+        left: 10px;
+    }
+
+    .bannerParrafo{
+        font-size: 11px;
+        color: #028001;
+        position: relative;
+        top: 5px;
+        left: 10px;
+    }
+
+    .calltoaction{
+        border-radius: 5px;
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        font-size: 10px;
+        text-align: center;
+        position: relative;
+        top: -5px;
+        left: 10px;
+    }
+    .tituloServicios{
+        font-size: 25px;
+        margin-top: -40px;
+    }
+    
+    #lineaUno{
+        color: white;
+        position: relative;
+        top:20px
+    }
+    #lineaDos{
+        color: white;
+    }
+    .subparrafo{
+        font-size: 12px;
+        color:#7ac98a;
+        text-align: center; 
+        margin-top: 25px;
+    }
+    .tituloProductos {
+        line-height: 1;
+        font-size: 25px;
+        text-align:center;
+        position: relative;
+        top: 25px;
+        margin-left: 5px;
+    }
+    
+    .subparrafoProductos{
+        font-size: 15px;
+        color:white;
+        text-align: center; 
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+    .botonCarrito {
+        font-size: 12px;
+    }
+
+    .cuidaTuPiel{
+        font-size: 25px;
+        position: relative;
+        right: 5px;
+    }
+    
+    .elegiSalud{
+        font-size: 25px;
+        position: relative;
+        left: 5px;
+    }
+      .contactoInfo h2{
+        font-size: 18px;
+        position: relative;
+        left: 100px;
+        margin-top: 15px;
+    }
+      .contactoInfo p{
+        font-size: 12px;
+        text-align: center;
+        position: relative;
+        left: 30px;
+       
+    }
+    
+      aside img{
+        width: 100vw;
+        height: 15vh;
+        align-items: center;
+    }
+    
+      .ofertas{
+        width: 100vw !important;
+        position: relative;
+        left: 0px;
+    }
+
+    #formulario{
+        display: flex;
+        flex-direction: column;
+        width: 250px;
+        padding: 25px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 15px;
+        position: relative;
+        top: 20px;
+        left: 25px;
+       
+    }
+     #formulario h2 {
+        font-family: 'Montserrat', sans-serif;
+        color:#20a448;
+        font-weight: 700;
+     }
+     #formulario p {
+        font-family: 'Montserrat', sans-serif;
+        color: #4caf50;
+        font-weight: 500;
+     }
+     label{
+    color: #20a448;
+    margin-top: 5px;
+    }
+
+
+
+  }
+  
+ 
