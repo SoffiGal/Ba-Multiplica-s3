@@ -5,65 +5,65 @@ const productos = [
     id: 1,
     nombre: 'Buscapina Perlas x10Caps',
     precio: 1800,
-    imagen: '/Img/producto1.jpg'
+    imagen: './img/producto1.jpg'
    },
   {
     id: 2,
     nombre: 'Atomo Clásico pote x220Gr',
     precio: 6215,
-    imagen: '/Img/producto2.jpeg'
+    imagen: './img/producto2.jpeg'
   },
  {
    id: 3,
    nombre: 'Nicotinell chicles 4mgX24u',
    precio: 7540,
-   imagen: '/Img/producto3.jpeg'
+   imagen: './img/producto3.jpeg'
   },
   {
     id: 4,
     nombre: 'Bayer Empecid Crema x20Gr',
     precio: 2250,
-    imagen: '/Img/producto4.jpeg'
+    imagen: './img/producto4.jpeg'
   },
   { id: 5,
     nombre: 'Pharmaton Omega x30Cap',
      precio: 6960,
-    imagen: '/Img/producto5.jpeg'
+    imagen: './img/producto5.jpeg'
   },
   { id: 6,
     nombre: 'Goicochea Diabetex TX x400Gr',
     precio: 7000,
-    imagen: '/Img/producto6.png'
+    imagen: './img/producto6.png'
   },
   { id: 7,
     nombre: 'Skin Active Micelar 400Ml',
     precio: 6250,
-    imagen: '/Img/producto7.png'
+    imagen: './img/producto7.png'
   },
   { id: 8,
     nombre: 'Carbon Gel Exfoliante x120Gr',
     precio: 2550,
-    imagen: '/Img/producto8.png'
+    imagen: './img/producto8.png'
   },
   { id: 9,
     nombre: 'Unesia Fortalecedor de uñas x7ml',
     precio: 2250,
-    imagen: '/Img/producto9.jpeg'
+    imagen: './img/producto9.jpeg'
   },
   { id: 10,
     nombre: 'Tio Nacho Aclarante 415Ml',
     precio: 4050,
-    imagen: '/Img/producto10.png'
+    imagen: './img/producto10.png'
   },
   { id: 11,
     nombre: 'Dermaglos Ultra Hidratación x50gr',
     precio: 5245,
-    imagen: '/Img/producto11.jpeg'
+    imagen: './img/producto11.jpeg'
   },
   { id: 10,
     nombre: 'Mascara de pestañas waterproof',
     precio: 8050,
-    imagen: '/Img/producto12.jpeg'
+    imagen: './img/producto12.jpeg'
   }
       
   ];
@@ -109,8 +109,8 @@ const productos = [
   
     // Condicion que validar si los campos obligatorios están completos
     if (tunombre && email && obraSocial && numeroAfiliado && remedio && consulta) {
-      alert("Formulario enviado correctamente, nos comunicaremos contigo en la brevedad, revisa tu casilla de correo");
+      alert("Formulario enviado correctamente, nos comunicaremos contigo en la brevedad, revisa tu casilla de correo.");
     } else {
-      alert("Por favor, completa todos los campos");
+      alert("Por favor, completa todos los campos.");
     }
   });

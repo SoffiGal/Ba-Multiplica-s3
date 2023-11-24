@@ -25,7 +25,7 @@ body{
 }
 
 .banner {
-    background-image: url(/Img/sin\ etiqueta.jpg);
+    background-image: url(./img/sin\ etiqueta.jpg);
     width: 100vw;
     height: 100vh;
     background-position: center;
@@ -120,7 +120,7 @@ body{
 }
 
 #presion{
-    background-image: url(/Img/presion.jpg);
+    background-image: url(./img/presion.jpg);
     background-size: cover;
     background-position: center;
     width: 300px;
@@ -128,7 +128,7 @@ body{
     transition: background 0.3s ease;
 }
 #presion:hover{
-    background: linear-gradient(#8cccac78, #8cccac78), url(/Img/presion.jpg);
+    background: linear-gradient(#8cccac78, #8cccac78), url(./img/presion.jpg);
     background-position: center;
     background-size: cover; 
 }
@@ -138,7 +138,7 @@ body{
 }
   
 #inyectables{
-    background-image: url(/Img/inyecciones.jpg);
+    background-image: url(./img/inyecciones.jpg);
     background-size: cover;
     background-position: center;
     width: 300px;
@@ -146,7 +146,7 @@ body{
     transition: background 0.3s ease;
 }
 #inyectables:hover{
-    background: linear-gradient(#8cccac78, #8cccac78), url(/Img/inyecciones.jpg);
+    background: linear-gradient(#8cccac78, #8cccac78), url(./img/inyecciones.jpg);
     background-position: center;
     background-size: cover; 
 }
@@ -156,7 +156,7 @@ body{
 }
 
 #glucosa{
-    background-image: url(/Img/glucosa.jpeg);
+    background-image: url(./img/glucosa.jpeg);
     background-size: cover;
     background-position: center;
     width: 300px;
@@ -164,7 +164,7 @@ body{
     transition: background 0.3s ease;
 }
 #glucosa:hover{
-    background: linear-gradient(#8cccac78, #8cccac78), url(/Img/glucosa.jpeg);
+    background: linear-gradient(#8cccac78, #8cccac78), url(./img/glucosa.jpeg);
     background-position: center;
     background-size: cover; 
 }
@@ -176,7 +176,7 @@ body{
 #nebulizacion{
     width: 300px;
     height: 200px;
-    background-image: url(/Img/nebulizacion.jpg);
+    background-image: url(./img/nebulizacion.jpg);
     background-size: cover;
     background-position: center;
     transition: background 0.3s ease;
@@ -185,7 +185,7 @@ body{
     margin-top: 145px;
 }
 #nebulizacion:hover{
-    background: linear-gradient(#8cccac78, #8cccac78), url(/Img/nebulizacion.jpg);
+    background: linear-gradient(#8cccac78, #8cccac78), url(./img/nebulizacion.jpg);
     background-position: center;
     background-size: cover; 
 }
@@ -195,7 +195,7 @@ body{
 }
   /*seccion productos*/
 .contenedorVerde{
-    background-image: url(/Img/fondova.png);
+    background-image: url(./img/fondova.png);
     width: 100vw;
     height: auto;
     background-position: center ;
@@ -288,7 +288,7 @@ body{
   }
     /*seccion formulario*/
   .contenedorFormulario{
-    background-image: url(Img/fondoverde.png);
+    background-image: url(./img/fondoverde.png);
     background-position: center;
     background-size: cover; 
     width: 100vw;
@@ -450,7 +450,7 @@ footer {
     }
 
     .banner {
-        background-image: url(/Img/sin\ etiqueta.jpg);
+        background-image: url(./img/sin\ etiqueta.jpg);
         width: 100vw;
         background-position: top;
         background-repeat: no-repeat;
